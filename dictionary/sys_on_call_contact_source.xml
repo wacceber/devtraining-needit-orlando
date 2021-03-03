@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="On-Call Contact Source" max_length="40" name="sys_on_call_contact_source" sizeclass="3" type="collection">
+        <element attributes="allow_references=false,types=ph_number;phone_number_e164" dependent="table" label="Phone number source" max_length="80" name="phone_number_source" type="field_name"/>
+    </element>
+</database>

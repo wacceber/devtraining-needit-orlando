@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Notify Message" max_length="40" name="notify_message" read_only="true" sizeclass="0" type="collection">
+        <element label="Message number" max_length="40" name="message_number" type="integer"/>
+    </element>
+</database>
